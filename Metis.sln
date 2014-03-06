@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metis", "Metis\Metis.csproj", "{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MetisDll", "MetisDll\MetisDll.vcxproj", "{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{71D1F580-5E0B-49A9-A340-103AAFB26C56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Debug|ARM.ActiveCfg = Debug|ARM
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Debug|ARM.Build.0 = Debug|ARM
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Debug|ARM.Deploy.0 = Debug|ARM
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Debug|Mixed Platforms.Deploy.0 = Debug|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Debug|Win32.ActiveCfg = Debug|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Debug|Win32.Build.0 = Debug|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Debug|Win32.Deploy.0 = Debug|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Debug|x86.ActiveCfg = Debug|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Debug|x86.Build.0 = Debug|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Debug|x86.Deploy.0 = Debug|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Release|ARM.ActiveCfg = Release|ARM
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Release|ARM.Build.0 = Release|ARM
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Release|ARM.Deploy.0 = Release|ARM
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Release|Mixed Platforms.Build.0 = Release|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Release|Mixed Platforms.Deploy.0 = Release|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Release|Win32.ActiveCfg = Release|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Release|Win32.Build.0 = Release|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Release|Win32.Deploy.0 = Release|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Release|x86.ActiveCfg = Release|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Release|x86.Build.0 = Release|x86
+		{2F52EF70-4A50-456B-AE38-7B3DC3E2748F}.Release|x86.Deploy.0 = Release|x86
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Debug|ARM.ActiveCfg = Debug|ARM
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Debug|ARM.Build.0 = Debug|ARM
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Debug|Win32.ActiveCfg = Debug|Win32
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Debug|Win32.Build.0 = Debug|Win32
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Debug|x86.ActiveCfg = Debug|Win32
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Debug|x86.Build.0 = Debug|Win32
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Release|Any CPU.ActiveCfg = Release|Win32
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Release|ARM.ActiveCfg = Release|ARM
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Release|ARM.Build.0 = Release|ARM
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Release|Win32.ActiveCfg = Release|Win32
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Release|Win32.Build.0 = Release|Win32
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Release|x86.ActiveCfg = Release|Win32
+		{433AC8CF-467B-4327-9BDC-7A5D23D6EF08}.Release|x86.Build.0 = Release|Win32
+		{71D1F580-5E0B-49A9-A340-103AAFB26C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D1F580-5E0B-49A9-A340-103AAFB26C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D1F580-5E0B-49A9-A340-103AAFB26C56}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{71D1F580-5E0B-49A9-A340-103AAFB26C56}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{71D1F580-5E0B-49A9-A340-103AAFB26C56}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{71D1F580-5E0B-49A9-A340-103AAFB26C56}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{71D1F580-5E0B-49A9-A340-103AAFB26C56}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{71D1F580-5E0B-49A9-A340-103AAFB26C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D1F580-5E0B-49A9-A340-103AAFB26C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D1F580-5E0B-49A9-A340-103AAFB26C56}.Release|ARM.ActiveCfg = Release|Any CPU
+		{71D1F580-5E0B-49A9-A340-103AAFB26C56}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{71D1F580-5E0B-49A9-A340-103AAFB26C56}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{71D1F580-5E0B-49A9-A340-103AAFB26C56}.Release|Win32.ActiveCfg = Release|Any CPU
+		{71D1F580-5E0B-49A9-A340-103AAFB26C56}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

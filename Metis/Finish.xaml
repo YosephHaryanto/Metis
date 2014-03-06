@@ -1,0 +1,50 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:ec="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions"
+    x:Class="Metis.Finish"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d">
+
+	<phone:PhoneApplicationPage.FontFamily>
+		<StaticResource ResourceKey="PhoneFontFamilyNormal"/>
+	</phone:PhoneApplicationPage.FontFamily>
+	<phone:PhoneApplicationPage.FontSize>
+		<StaticResource ResourceKey="PhoneFontSizeNormal"/>
+	</phone:PhoneApplicationPage.FontSize>
+	<phone:PhoneApplicationPage.Foreground>
+		<StaticResource ResourceKey="PhoneForegroundBrush"/>
+	</phone:PhoneApplicationPage.Foreground>
+<!--LayoutRoot is the root grid where all page content is placed-->
+	<Grid x:Name="LayoutRoot" Background="{StaticResource BackgroundMetis}">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<Grid Height="72" VerticalAlignment="Top" Width="186" HorizontalAlignment="Left" Margin="143,81,0,0">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="auto" />
+			</Grid.ColumnDefinitions>
+			<TextBlock TextWrapping="Wrap" Text="Metis" TextAlignment="Center" VerticalAlignment="Center" Margin="0" FontFamily="{StaticResource FontMetis}" FontSize="48" HorizontalAlignment="Left"/>
+			<Image HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Source="Assets/iconsmall.png" Height="50" Width="50" Grid.Column="1"/>
+		</Grid>
+		<StackPanel HorizontalAlignment="Left" Height="615" VerticalAlignment="Top" Width="480" Grid.Row="1">
+			<Image x:Name="ImageResult" HorizontalAlignment="Center" Height="214" VerticalAlignment="Top" Width="339" Margin="0,40,0,0" Visibility="Collapsed"/>
+			<TextBlock HorizontalAlignment="Left" Margin="0,72,0,0" TextWrapping="Wrap" Text="Done! You can go back to main menu or close this app :)" VerticalAlignment="Top" FontFamily="{StaticResource FontMetis}" FontSize="29.333" TextAlignment="Center" Width="480"/>
+			<Button Content="Main menu" HorizontalAlignment="Center" Margin="0,24,0,0" VerticalAlignment="Top">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<ec:NavigateToPageAction TargetPage="/Menu.xaml"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+		</StackPanel>
+
+	</Grid>
+
+</phone:PhoneApplicationPage>
