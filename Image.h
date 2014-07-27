@@ -4,19 +4,19 @@
 * Copyright (c) Yoseph Haryanto.
 ****/
 
-#pragma once
+#ifndef IMAGE_H
+#define IMAGE_H
 
 #include <vector>
-#include <collection.h>
 
-namespace MetisDll 
+namespace Metis
 {
 	public ref class Image sealed
 	{
 	public:
 		Image();
 		Image(int width, int height);
-		Image(Windows::Foundation::Collections::IVector<int>^ in, int width, int height);
+		Image(std::vector<int> data, int width, int height);
 
 		/// <summary>
 		/// Gets the height of the image.
@@ -80,7 +80,7 @@ namespace MetisDll
 		/// Gets the raw image data.
 		/// </summary>
 		/// <returns>Collection of pixel (Vector) </returns>
-		Windows::Foundation::Collections::IVector<int>^ getImageData(){ return _imageData; }
+		std::vector<int> data getImageData(){ return _imageData; }
 	
 	private:
 		~Image();
@@ -88,7 +88,7 @@ namespace MetisDll
 		/// <summary>
 		/// The raw image data
 		/// </summary>
-		Windows::Foundation::Collections::IVector<int>^ _imageData;
+		std::vector<int> data _imageData;
 		
 		/// <summary>
 		/// The image height
@@ -107,3 +107,4 @@ namespace MetisDll
 	};
 }
 
+#endif //IMAGE_H
